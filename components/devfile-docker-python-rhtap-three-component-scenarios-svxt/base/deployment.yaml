@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-docker-python-rhtap-three-component-scenarios-svxt
     spec:
       containers:
-      - image: python-image:latest
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-wimk-tenant/mc-three-scenarios/devfile-docker-python-rhtap-three-component-scenarios-svxt@sha256:17fb528bbe8dc1f21657c6338615aca51e009f0d696ae1b01498b0d7baae3e7e
         name: my-python
         ports:
         - containerPort: 8081
