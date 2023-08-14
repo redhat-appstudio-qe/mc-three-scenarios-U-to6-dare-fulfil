@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-docker-python-rhtap-three-component-scenarios-svxt
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-appstudio-qe/e2e-demos-wimk-tenant/mc-three-scenarios/devfile-docker-python-rhtap-three-component-scenarios-svxt@sha256:17fb528bbe8dc1f21657c6338615aca51e009f0d696ae1b01498b0d7baae3e7e
+        name: my-python
+        resources: {}
+status: {}
